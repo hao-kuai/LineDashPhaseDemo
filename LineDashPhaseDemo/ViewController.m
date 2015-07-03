@@ -2,7 +2,7 @@
 //  ViewController.m
 //  LineDashPhaseDemo
 //
-//  Created by TH-ZWQ on 15/7/3.
+//  虚线方法参考 http://www.cocoachina.com/ios/20150417/11610.html
 //
 //
 
@@ -28,8 +28,9 @@
     [m_shapeLayer setStrokeColor:[[UIColor redColor] CGColor]];
     // 3.0f设置虚线的宽度
     [m_shapeLayer setLineWidth:5.0f];
+    //不太懂
     [m_shapeLayer setLineJoin:kCALineJoinRound];
-    [m_shapeLayer setLineDashPhase:1];
+    
     // 3=线的宽度 1=每条线的间距
     [m_shapeLayer setLineDashPattern:[NSArray arrayWithObjects:[NSNumber numberWithInt:5],[NSNumber numberWithInt:1],nil]];
     // Setup the path
@@ -46,6 +47,8 @@
     CGPathRelease(path);
     [self.view.layer addSublayer:m_shapeLayer];
     
+    //实现动画
+    [m_shapeLayer setLineDashPhase:1];
     [[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(movePhase) userInfo:nil repeats:YES] fire];
     
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD248BF7-E8FA-47F2-8EA2-809EF835BFFF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LineDashPhaseDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B9D4BE306752333682A81EBB037C8473BFBC867</key>
+		<string>https://github.com/1071942338/LineDashPhaseDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LineDashPhaseDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B9D4BE306752333682A81EBB037C8473BFBC867</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/1071942338/LineDashPhaseDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B9D4BE306752333682A81EBB037C8473BFBC867</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B9D4BE306752333682A81EBB037C8473BFBC867</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LineDashPhaseDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
